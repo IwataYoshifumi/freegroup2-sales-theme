@@ -35,10 +35,10 @@ $home_url         = home_url( '/' );
 			<div class="footer-col">
 				<h4>リソース</h4>
 				<ul>
-					<li><a href="#">ドキュメント</a></li>
-					<li><a href="#">インストール</a></li>
+					<li><a href="https://docs.freegroup.work/" target="_blank" rel="noopener">ドキュメント</a></li>
+					<li><a href="https://docs.freegroup.work/install/" target="_blank" rel="noopener">インストール</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="<?php echo esc_url( home_url( '/license/' ) ); ?>">商用ライセンス</a></li>
+					<li><a href="https://docs.freegroup.work/license/" target="_blank" rel="noopener">商用ライセンス</a></li>
 				</ul>
 			</div>
 			<div class="footer-col">

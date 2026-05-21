@@ -125,7 +125,7 @@ $cta_desc      = fg2_meta( 'fg2_cta_desc',      'FreeGroup2でオープンソー
 $cta_btn1_text = fg2_meta( 'fg2_cta_btn1_text', 'GitHubで見る →' );
 $cta_btn1_url  = fg2_meta( 'fg2_cta_btn1_url',  'https://github.com/IwataYoshifumi/freegroup2' );
 $cta_btn2_text = fg2_meta( 'fg2_cta_btn2_text', 'ドキュメント' );
-$cta_btn2_url  = fg2_meta( 'fg2_cta_btn2_url',  '#' );
+$cta_btn2_url  = fg2_meta( 'fg2_cta_btn2_url',  'https://docs.freegroup.work/' );
 ?>
 
 <!-- Hero -->
@@ -371,7 +371,7 @@ $cta_btn2_url  = fg2_meta( 'fg2_cta_btn2_url',  '#' );
 				<p><?php echo nl2br( esc_html( $cta_desc ) ); ?></p>
 				<div class="cta-row">
 					<a href="<?php echo esc_url( $cta_btn1_url ); ?>" class="btn btn-white"<?php echo ( 0 === strpos( $cta_btn1_url, 'http' ) ) ? ' target="_blank" rel="noopener"' : ''; ?>><?php echo esc_html( $cta_btn1_text ); ?></a>
-					<a href="<?php echo esc_url( $cta_btn2_url ); ?>" class="btn btn-ghost"><?php echo esc_html( $cta_btn2_text ); ?></a>
+					<a href="<?php echo esc_url( $cta_btn2_url ); ?>" class="btn btn-ghost"<?php echo ( 0 === strpos( $cta_btn2_url, 'http' ) ) ? ' target="_blank" rel="noopener"' : ''; ?>><?php echo esc_html( $cta_btn2_text ); ?></a>
 				</div>
 			</div>
 		</div>
