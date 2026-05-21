@@ -31,8 +31,8 @@ if ( function_exists( 'wp_body_open' ) ) {
 			<div class="nav-dropdown">
 			  <a href="#" class="nav-dropdown-toggle">ライセンス ▾</a>
 			  <div class="nav-dropdown-menu">
-			    <a href="https://docs.freegroup.work/license/#1-コミュニティライセンス無償" target="_blank">コミュニティライセンス</a>
-			    <a href="https://docs.freegroup.work/license/#1-2-商用ライセンス有償" target="_blank">商用ライセンス</a>
+			    <a href="https://docs.freegroup.work/license/#1-1" target="_blank">コミュニティライセンス</a>
+			    <a href="https://docs.freegroup.work/license/#1-2" target="_blank">商用ライセンス</a>
 			  </div>
 			</div>
 			<a href="https://github.com/IwataYoshifumi/freegroup2" class="nav-cta" target="_blank" rel="noopener">GitHub</a>

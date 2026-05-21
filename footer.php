@@ -37,7 +37,7 @@ $home_url         = home_url( '/' );
 				<ul>
 					<li><a href="https://docs.freegroup.work/" target="_blank" rel="noopener">ドキュメント</a></li>
 					<li><a href="https://docs.freegroup.work/install/" target="_blank" rel="noopener">インストール</a></li>
-					<li><a href="#">FAQ</a></li>
+					<li><a href="https://docs.freegroup.work/faq/" target="_blank" rel="noopener">FAQ</a></li>
 					<li><a href="https://docs.freegroup.work/license/" target="_blank" rel="noopener">商用ライセンス</a></li>
 				</ul>
 			</div>
