@@ -22,7 +22,10 @@ if ( function_exists( 'wp_body_open' ) ) {
 <header>
 	<nav class="nav">
 		<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="text-decoration:none;color:inherit;">Free<span>Group</span>2<span class="for-sales">for Sales</span></a></div>
-		<div class="nav-links">
+		<button class="nav-hamburger" type="button" aria-label="メニュー" aria-controls="nav-links" aria-expanded="false">
+			<span></span><span></span><span></span>
+		</button>
+		<div class="nav-links" id="nav-links">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>#features">機能</a>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>#how">使い方</a>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>#support">サポート</a>
@@ -36,6 +39,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 			  </div>
 			</div>
 			<a href="https://github.com/IwataYoshifumi/freegroup2" class="nav-cta" target="_blank" rel="noopener">GitHub</a>
+			<a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="nav-contact">お問い合わせ</a>
 		</div>
 	</nav>
 </header>
